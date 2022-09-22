@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  ul
+  ol {
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  a:hover {
+background-color: #f2e9e4 ;
+  }
+
+
+/* Hero */
+.hero {
+  height: 98vh;
+  background-image: url(../assets/images/palaciodejusticia.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__parrafo {
+  text-align: center;
+  justify-content:center;
+  font-family:'Quicksand', sans-serif;
+}
+
+.titulo {
+  background-color: rgba(255, 228, 196, 0.406);
+}
+
+.formulario{
+  display: flex;
+  flex-direction: row;
+}
+
+footer {
+background-color: #4a4e692f;
+font-family: 'News Cycle', sans-serif;
+color: rgba(0, 0, 0, 0.58);
+text-align: center;}
+
+.personas {
+  width: 150px;
+  height: 150px;
+  float: left;
+  background-color: aliceblue;
+  border-radius: 10px;
+} 
