@@ -43,6 +43,7 @@ background-color: #f2e9e4 ;
 .formulario{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 footer {

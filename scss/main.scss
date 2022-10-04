@@ -1,2 +1,17 @@
-// $color-primario
-// $
+@import "./utils/variables";
+
+@import "./base/reset";
+@import "./base/tipo";
+
+@import "./layout/footer";
+@import "./layout/header";
+
+@import "./components/botones";
+@import "./components/card";
+
+@import "./pages/areasdetrabajo";
+@import "./pages/contacto";
+@import "./pages/formaparte";
+@import "./pages/index";
+@import "./pages/nosotros";
+
