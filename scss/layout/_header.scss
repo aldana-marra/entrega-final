@@ -1,0 +1,19 @@
+a:hover {
+    background-color: #f2e9e4 ;
+      }
+
+    .hero {
+        height: 98vh;
+        background-image: url(../assets/images/palaciodejusticia.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__parrafo {  
+        text-align: center;
+        justify-content:center;
+        font-family:'Quicksand', sans-serif;
+        }
+        }
