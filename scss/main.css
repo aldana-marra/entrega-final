@@ -12,17 +12,16 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  background-color: #f2e9e4;
-  
-}footer {
+footer {
   background-color: rgba(74, 78, 105, 0.1843137255);
   font-family: "News Cycle", sans-serif;
   color: rgba(0, 0, 0, 0.58);
   text-align: center;
 }
 
-
+a:hover {
+  background-color: #f2e9e4;
+}
 
 .hero {
   height: 98vh;
@@ -50,6 +49,4 @@ a:hover {
 .mapa {
   width: 50%;
   height: 50%;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=main.css.map */
