@@ -4,25 +4,25 @@
   box-sizing: border-box;
 }
 
-ul ol {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
 }
 
-a:hover {
-  background-color: #f2e9e4;
-  
-}footer {
+ul ol {
+  list-style: none;
+}
+
+footer {
   background-color: rgba(74, 78, 105, 0.1843137255);
   font-family: "News Cycle", sans-serif;
   color: rgba(0, 0, 0, 0.58);
   text-align: center;
 }
 
-
+a:hover {
+  background-color: #f2e9e4;
+  border-radius: 2px;
+}
 
 .hero {
   height: 98vh;
@@ -40,16 +40,101 @@ a:hover {
   font-family: "Quicksand", sans-serif;
 }
 
+.formulario__boton {
+  width: 100%;
+  background: #d5bdaf;
+  border: none;
+  padding: 12px;
+  color: #edede9;
+  margin: 16px 0px;
+  font-size: 16px;
+}
+
+.postularse {
+  width: 100%;
+  background: #d5bdaf;
+  border: none;
+  padding: 12px;
+  color: #edede9;
+  margin: 16px 0px;
+  font-size: 16px;
+}
+.postularse:hover {
+  background-color: #e3d5ca;
+  color: #edede9;
+}
+
 .formulario {
-  width: 400px;
-  background-color: aqua;
-  padding: 30px;
+  width: 320px;
+  background-color: #f2e9e4;
   margin: auto;
+  padding: 30px;
+  margin-bottom: 100px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  box-shadow: 7px 13px 37px #000;
+}
+.formulario__input {
+  width: 100%;
+  background: #f2e9e4;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+}
+.formulario__parrafo {
+  height: 40px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 40px;
+}
+.formulario__a {
+  color: rgba(74, 78, 105, 0.1843137255);
+}
+@media (min-width: 320px) {
+  .formulario .formulario {
+    margin: auto;
+  }
+}
+
+.formulario a {
+  text-decoration: none;
+}
+
+h4 {
+  font-size: 20px;
 }
 
 .mapa {
-  width: 50%;
-  height: 50%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.mapa iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contenedor {
+  display: flex;
+}
+
+.personas {
+  width: 150px;
+  height: 150px;
+  float: left;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+@media (max-width: 760px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,25 @@
+.formulario__boton {
+    width: 100%;
+    background:$color-7;
+    border: none;
+    padding: 12px;
+    color:$color-3;
+    margin: 16px 0px;
+    font-size: 16px;
+
+}
+
+.postularse {
+    width: 100%;
+    background:$color-7;
+    border: none;
+    padding: 12px;
+    color:$color-3;
+    margin: 16px 0px;
+    font-size: 16px;
+    &:hover{
+        background-color:$color-6;
+        color: $color-3;
+    }
+
+}

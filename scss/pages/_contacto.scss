@@ -1,14 +1,61 @@
 .formulario{
-    width: 400px;
-    background-color:aqua;
-    padding: 30px;
+    width: 320px;
+    background-color:$color-rosa;
     margin: auto;
+    padding: 30px;
+    margin-bottom: 100px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 7px 13px 37px #000;
+    &__input {
+        width: 100%;
+        background: $color-rosa;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid black;
+    }
+    &__parrafo {
+        height: 40px;
+        text-align: center;
+        font-size: 15px;
+        line-height:40px;
+    }
+    &__a {
+        color:$color-azul;
 
+    }
+
+    @media (min-width: 320px) {
+        .formulario{
+        margin: auto;
+        }
+    }
+    
+
+
+    }
+
+
+.formulario a {
+    text-decoration: none;
 
 }
 
+h4 {
+    font-size: 20px;
+}
 
 .mapa {
-    width: 50%;
-    height: 50%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    & iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
+
