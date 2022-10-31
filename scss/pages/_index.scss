@@ -1,0 +1,80 @@
+.encabezado {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d9a7c7;  
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(55, 100%, 93%, 0.68), hsla(322, 40%, 75%, 0.721)), url(../assets/images/palaciodejusticia.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(55, 100%, 93%, 0.68), hsla(322, 40%, 75%, 0.721)), url(../assets/images/palaciodejusticia.jpg); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    @include mobile-lg{
+    background-position: center;
+    }
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+font-family: 'Lato', sans-serif;  
+font-weight: 500;
+font-size: 2rem;
+@include mobile-md {
+font-size: 4rem;
+}
+}       
+
+h1 span {
+font-weight: bolder;
+font-size: 2rem;
+@include mobile-md {
+    font-size: 5rem;
+}
+}
+
+
+.parrafo-presentacion {
+    padding: 60px 0;
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    @include mobile-sm {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &-imagen {
+        width: 25%;
+        @include mobile-sm {
+            width: 90%;
+        }
+    }
+    &-parrafo{
+        width: 48%;
+        margin-top: 50px;
+        text-align: justify;
+        @include mobile-sm {
+            width: 90%;
+        }
+        
+    }
+}
+
+.titulo2 {
+    font-family:'Lato', sans-serif;
+    color: #d9a7c7;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+}

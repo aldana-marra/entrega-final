@@ -1,0 +1,56 @@
+.clientes {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+&-cards {
+    background-color: rgba(124, 165, 214, 0.05);
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items:center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    & img {
+        width: 100px;
+        height: 100px;
+        object-fit:cover;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        display: block;
+        }
+    }
+}
+
+
+.titulo-clientes{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.contenido-texto-cards {
+    font-family: 'Lato', sans-serif;
+    font-weight: italic;
+    }
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.areas {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+
+}

@@ -1,5 +1,6 @@
 .contenedor {
     display: flex;
+    
 }
 .personas {
     width: 150px;
@@ -7,7 +8,7 @@
     float: left;
     background-color: aliceblue;
     border-radius: 10px;
-  } 
+    } 
 
 @media (max-width:760px){
     .contenedor {
@@ -16,3 +17,30 @@
     }
 }
 
+.servicios{
+    background: #f2f2f2;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    &-contenedor{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    &-ind {
+        width: 30%;
+        text-align: center;
+        & img {
+            width: 90%;}
+        & h3 {
+            font-family: 'Lato', sans-serif;
+            margin: 10px 0;
+        }
+        & p {
+            font-family: 'Roboto', sans-serif;;
+            font-weight: 300;
+            text-align: justify;
+        }
+    
+
+    }
+    }
+}

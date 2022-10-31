@@ -1,8 +1,30 @@
-$color-rosa:#f2e9e4;
+$color-rosa:#b790af80;
 $color-azul:#4a4e692f;
 $color-3:#edede9;
 $color-4:#d6ccc2;
 $color-5:#f5ebe0;
 $color-6:#e3d5ca;
 $color-7:#d5bdaf;
+
+
+@mixin mobile-sm {
+    @media (min-width:320px){
+        @content
+    }
+}
+
+
+@mixin mobile-md {
+    @media (min-width:768px){
+        @content
+    }
+}
+
+@mixin mobile-lg {
+    @media (min-width:1024px){
+        @content
+    }
+}
+
+
 
